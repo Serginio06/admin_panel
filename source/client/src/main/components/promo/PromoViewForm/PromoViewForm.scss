@@ -1,0 +1,343 @@
+@import "vendor";
+
+.PromoViewForm {
+
+  .mainBlock__header__inputBtn-wrapper button {
+    //margin-right: 45px;
+  }
+
+  .for-approval-text {
+    font-size: 23px;
+    color:$textColor1;
+    font-family: $fontFamily1;
+    margin-right: 13px;
+  }
+
+  .mainBlock__header__inputBtn__status-wrapper {
+    color: $textColor7;
+    letter-spacing: 0.69px;
+    text-transform: uppercase;
+    font-size: 22px;
+    padding-top: 0;
+    margin-right: 35px;
+  }
+
+  .promoRegForm__form-wrapper {
+    width: 100%;
+  }
+
+  .promoRegForm__alert {
+    background-color: rosybrown;
+    color: darkred;
+    width: 100%;
+    height: 50px;
+  }
+
+  [class^=promoRegForm__row] {
+    position: relative;
+  }
+
+  .promoRegForm__row1 {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    margin-bottom: 6px;
+    padding-top: 6px;
+  }
+
+  .promoRegForm__row2 {
+    //display: flex;
+    //flex-wrap: nowrap;
+    //justify-content: space-between;
+    //margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    .promoCol_20percent {
+      //margin-right: 0;
+      width: 26%;
+    }
+  }
+
+  .promoRegForm__row3 {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    margin-bottom: 20px;
+  }
+
+  .promoRegForm__input-interests {
+    .Select-control {
+      height: 125px;
+    }
+  }
+
+  [class^="promoCol_"] {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-self: normal;
+    height: auto;
+  }
+
+  .promoCol_20percent {
+    margin-right: 0;
+    width: 26%;
+  }
+
+  .promoCol_33percent {
+    //margin-right: 20px;
+    width: 36%;
+  }
+
+  .promoCol_40percent {
+    width: 40%;
+  }
+
+  //.promoCol_33percent:last-child{
+  //  margin-right: 0;
+  //}
+  .promoViewForm_25percent, .promoViewForm_33percent {
+    align-self: center;
+    h5, h6 {
+      letter-spacing: -0.5px;
+      text-transform: uppercase;
+      margin-top: 21px;
+
+      margin-bottom: 47px;
+    }
+    h5 {
+      font-size: 21px;
+    }
+    h6 {
+      font-size: 19px;
+    }
+    .Label {
+      .label-title {
+        //width: 83px;
+        //height: 11px;
+        font-family: $hermesThin;
+        font-size: 11px;
+        font-weight: 800;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: normal;
+        text-align: center;
+        color: #a5a5a5;
+        text-transform: uppercase;
+        letter-spacing: -0.28px;
+      }
+      .label__content__wrapper {
+
+        .label-text, .label-text span {
+          font-family: $fontFamily2;
+          font-size: 20px;
+          font-weight: bold;
+          font-style: normal;
+          font-stretch: normal;
+          line-height: normal;
+          color: #616161;
+          text-align: center;
+          letter-spacing: -0.67px;
+        }
+      }
+    }
+  }
+
+  .promoCol_25percent {
+    //margin-right: 20px;
+    width: 25%;
+  }
+
+  .promoCol_50percent {
+    //margin-right: 10px;
+    width: 45%;
+    align-content: flex-start;
+    &__fix {
+      width: 50%;
+      align-content: flex-start;
+    }
+  }
+
+  .promoCol_100percent {
+    width: 100%;
+  }
+
+  // ######## helpers start
+  .mt20 {
+    margin-top: 20px;
+  }
+
+  .mb21 {
+    margin-bottom: 21px;
+  }
+
+  // ######## helpers end
+
+  .promoCol_100percent:first-child {
+    //margin-bottom: 20px;
+  }
+
+  [class^=promoCol] {
+    position: relative;
+  }
+
+  .promo-card-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-self: normal;
+    height: auto;
+    width: 300px;
+    //width: 273px;
+    position: relative;
+    top: -24px;
+  }
+
+  [class^=promo__currentStep] {
+    padding: 5px 10px 10px 10px;
+    position: relative;
+    top: 0;
+    left: 0;
+    background-color: transparent;
+    width: 100%;
+  }
+
+  .promo-step2 {
+    display: flex;
+    width: 38%;
+
+    .promoCol_20percent {
+      margin-right: 0;
+      width: 50%;
+    }
+
+    &.active {
+      background-color: $textColor12;
+    }
+  }
+
+  .promo__currentStep.active {
+
+    background-color: $textColor12;
+    &::after {
+      background-color: $textColor12;
+    }
+  }
+
+  [class^=promoCol]:last-child {
+    margin-right: 0;
+  }
+
+  .promoCol_16percent {
+    //margin-right: 17px;
+    width: 17%;
+  }
+
+  .promoRegForm__input {
+    width: 100%;
+    margin-bottom: 13px;
+  }
+
+  .mainBlock__header__text {
+    font-family: $hermesNormal;
+    display: flex;
+    width: 100%;
+    font-size: $tableHeadertabsFontSize;
+    color: #282D37;
+    letter-spacing: -0.3px;
+    font-weight: 100;
+    //padding-top: 6px;
+
+    &.active {
+      color: $textColor10;
+      font-weight: bold;
+    }
+
+    &.buttonDisabled {
+      color: #ccc;
+
+    }
+  }
+
+  .SVGInline.buttonDisabled {
+    opacity: 0.5;
+  }
+
+  .promo-top-step {
+    height: 120px;
+    position: relative;
+    &::after {
+      position: absolute;
+      content: "";
+      display: block;
+      width: 100%;
+      height: 20px;
+      background-color: transparent;
+      bottom: -20px;
+      right: 0;
+    }
+  }
+
+  .left_shift {
+    padding: 5px 10px 5px 24px;
+  }
+
+  .promo__currentStep {
+
+    &:first-child {
+      //padding-left: 24px;
+    }
+
+    .Select {
+      &.Select--multi {
+        margin-bottom: 3px;
+        width: 100%;
+      }
+    }
+
+    .react-datepicker-wrapper.last {
+      margin-top: 20px;
+    }
+  }
+
+  .react-datepicker div,
+  .react-datepicker li {
+    font-family: $hermesNormal;
+  }
+
+  .codeElement {
+    width: 100%;
+    min-height: 154px;
+    margin-bottom: -36px;
+    .companyReg__picUploader-wrapper {
+      justify-content: flex-start;
+      .subInput__info-wrapper {
+
+      }
+      .companyReg__picUploader__img-wrapper {
+        width: 185px;
+        img {
+          max-width: 185px;
+          width: 185px;
+          min-height: 90px;
+          max-height: 90px;
+          height: 90px;
+          background-color: #ffffff;
+          border: 1px solid $borderColor2;
+          min-width: 185px;
+          margin: 0 auto;
+        }
+      }
+      .companyReg__picUploader__btn-wrapper {
+        width: auto;
+        margin: 0 auto;
+      }
+    }
+  }
+
+  @media only screen and (max-width: $media__max-width) {
+
+  }
+
+}

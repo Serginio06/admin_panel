@@ -1,0 +1,48 @@
+@import "vendor";
+
+.Alert {
+  display: flex;
+  width: 100%;
+  border-radius: 13px;
+  overflow: hidden;
+  height: auto;
+  margin-bottom: 5px;
+  &__left-side {
+    width: 13px;
+  }
+
+  &__container {
+    flex: 1;
+    padding: 20px;
+    font-size: 11px;
+  }
+
+}
+
+.Alert_type_error {
+
+  .Alert__left-side {
+    background-color: #b94a48;
+  }
+
+  .Alert__container {
+    color: #b94a48;
+    background-color: #f2dede;
+    border-right: 1px solid #eed3d7;
+  }
+
+}
+
+.Alert_type_success {
+
+  .Alert__left-side {
+    background-color: #3a87ad;
+  }
+
+  .Alert__container {
+    color: #3a87ad;
+    background-color: #d9edf7;
+    border-right: 1px solid #bce8f1;
+  }
+
+}

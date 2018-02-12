@@ -1,0 +1,4 @@
+export enum EmailTarget {
+    VERIFY_USER_EMAIL = "VERIFY_USER_EMAIL",
+    RECOVER_PASSWORD = "RECOVER_PASSWORD"
+}

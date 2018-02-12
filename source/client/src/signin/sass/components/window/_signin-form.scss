@@ -1,0 +1,21 @@
+.loginForm {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+
+}
+
+.loginForm__form-wrapper {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 50%;
+  min-width: 320px;
+
+  input {
+    width: 100%;
+    font-size: 1.2em;
+    margin-bottom: 20px;
+  }
+
+}

@@ -1,0 +1,32 @@
+{
+  "compilerOptions": {
+    "outDir": "./build",
+    "allowJs": true,
+    "sourceMap": true,
+    "noImplicitAny": false,
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "strictNullChecks": false,
+    "target": "es5",
+    "lib": [
+      "es5",
+      "es6",
+      "es7",
+      "dom",
+      "dom.iterable",
+      "es2016.array.include"
+    ],
+    "jsx": "react",
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "typeRoots": [
+      "node_modules/@types"
+    ],
+    "types": [
+      "node"
+    ]
+  },
+  "include": [
+    "./source/server/**/*"
+  ]
+}

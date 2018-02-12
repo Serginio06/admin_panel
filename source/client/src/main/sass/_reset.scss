@@ -1,0 +1,68 @@
+@import "vendor";
+
+#tooltip {
+  .tooltip-inner {
+
+    strong {
+      font-size: 10px;
+      padding: 0;
+      margin: 0;
+    }
+  }
+}
+
+.btn-default {
+  //border: 1px solid $textColor8;
+  border: 1px solid $textColor2;
+}
+
+label {
+  font-weight: normal; // overwrite bootstrap label css property
+}
+
+.input__checkbox-wrapper {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  width: 100%;
+
+  .input__checkbox {
+    width: 55%;
+  }
+}
+
+.pac-container {
+  width: 305px !important;
+
+  .pac-item {
+    text-overflow: clip !important;
+    overflow-x: scroll !important;
+    span {
+      font-family: $fontFamily6;
+    }
+  }
+}
+
+// re-write bootstrap checkbox style
+.checkbox input[type=checkbox], .checkbox-inline input[type=checkbox], .radio input[type=radio], .radio-inline input[type=radio] {
+  margin-left: 0;
+}
+
+.modal-dialog {
+  width: 100%;
+  margin: 30px auto;
+}
+
+.modal-content {
+  min-width: 320px;
+}
+
+.form-control {
+  box-shadow:none;
+  -webkit-box-shadow:none;
+
+}
+
+//@media only screen and (max-width: $media__max-width) {
+//
+//}

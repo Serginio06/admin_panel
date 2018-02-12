@@ -1,0 +1,17 @@
+@import "fonts";
+@import "vendor";
+
+
+.CountDown {
+  font-family: $fontFamily4;
+  color:$textColor11;
+  font-size: 9.6px;
+  letter-spacing: -0.2px;
+  width: 45px;
+  display: inline-block;
+  &.timeOut {
+    font-weight: normal;
+    opacity: .5;
+
+  }
+}

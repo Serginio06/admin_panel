@@ -1,0 +1,8 @@
+export enum WsMessageType {
+    INIT_PROMO_IDS = "INIT_PROMO_IDS",
+    UPDATE_STATISTICS = "UPDATE_STATISTICS",
+    PING = "PING",
+    PONG = "PONG",
+
+    CHOOSE_COMPANY = "CHOOSE_COMPANY",
+}

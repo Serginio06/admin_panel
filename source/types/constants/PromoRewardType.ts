@@ -1,0 +1,4 @@
+export enum PromoRewardType {
+    SPECIAL_OFFER = "SPECIAL_OFFER",
+    SEPARATE_PRODUCT = "SEPARATE_PRODUCT",
+}

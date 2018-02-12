@@ -1,0 +1,93 @@
+
+.welcomePage__form-wrapper {
+  //width: 100%;
+  display: flex;
+  justify-content: center;
+  //padding-top: 170px;
+  max-width: 320px;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  position: relative;
+  left: -39px;
+  top: 191px;
+}
+
+.welcomePage__form__title {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 44px;
+  font-size: 19px;
+  font-family: $fontFamily2;
+  color: #000000;
+  position: relative;
+  top: -3px;
+  left: 0;
+}
+
+.welcomePage__content-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+#welcomePage__h1 {
+  margin: 0;
+  /* WELCOME! Copy: */
+  font-family: $hermesNormal;
+  font-weight: 100;
+  font-size: 19px;
+  color: #000000;
+  letter-spacing: 1.2px;
+  line-height: 25.3px;
+  text-transform: uppercase;
+}
+
+.welcomePage__content__item {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-family: $fontFamily1;
+  width: 100%;
+
+  max-width: 0;
+  min-width: 200px;
+  height: 38px;
+
+  text-decoration: none;
+  border: 0;
+  border-radius: 0;
+  background-color: transparent;
+  margin-bottom: 15px;
+
+  /* QUICK TOUR Copy: */
+  //font-family: Hermes;
+  font-size: 23px;
+  color: #000000;
+  letter-spacing: 0.6px;
+  line-height: 25.3px;
+
+}
+
+//.welcomePage__content__item:focus{
+//  outline-color:$textColor4;
+//  outline-width: 2px;
+//}
+
+.welcomePage__content__item:hover {
+  color: #000000;
+  text-shadow: 0 0 2px #ccccc9ce;
+  cursor: no-drop;
+}
+
+.welcomePage__content__item:focus {
+  outline: none;
+  border: none;
+  box-shadow: none;
+}
+
+@media only screen and (max-width: $media__max-width) {
+
+}
+

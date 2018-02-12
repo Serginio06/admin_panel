@@ -1,0 +1,60 @@
+
+.welcomePanel__leftBar__Subcategory-wrapper {
+  //width: 200px;
+  flex: 1;
+  height: 100%;
+  background-color: transparent;
+}
+
+.welcomePanel__section1 {
+  display: flex;
+  padding-left: 20px;
+  padding-top: 25px;
+  margin-bottom: 186px;
+  flex-wrap: wrap;
+
+  .welcomePanel__section__item {
+    color: $textColor8;
+    margin-bottom: 27px;
+    display: flex;
+    width: 100%;
+    font-family: $hermesNormal;
+    font-size: 20px;
+    line-height: 25.3px;
+    letter-spacing: 0.26px;
+    font-weight: 100;
+  }
+
+  .welcomePanel__section__item-2{
+    @extend .welcomePanel__section__item;
+    margin-bottom: 30px;
+    letter-spacing: 0;
+    //color:red;
+  }
+}
+
+.welcomePanel__section__item:last-child {
+  margin-bottom: 0;
+}
+
+.welcomePanel__section2 {
+  display: flex;
+  padding-left: 20px;
+  padding-top: 20px;
+  flex-wrap: wrap;
+
+  .welcomePanel__section__item {
+    margin-bottom: 41px;
+    display: flex;
+    width: 100%;
+    //font-weight: 700;
+    text-transform: uppercase;
+
+    /* COMPANIES: */
+    font-family: $fontFamily1;
+    font-size: 23px;
+    color: #000000;
+    letter-spacing: 0.5px;
+    line-height: 25.3px;
+  }
+}

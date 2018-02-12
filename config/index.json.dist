@@ -1,0 +1,33 @@
+{
+    "facebookAppId": "1760371347598728",
+    "googleApiKey": "AIzaSyAAmdTLdRqC0QInP67qugYYQn4sjhTeoCI",
+
+    "domain": "localhost:9999",
+
+    "dbUrl": "mongodb://127.0.0.1:27017/local",
+
+    "port": 9999,
+
+    "adminEmail": "sergius.iva@gmail.com",
+    "jwtSecret": "bd8rayeX0S2gSN__Ms_5YEcU",
+
+    "session": {
+        "secret": "mySecretKey3aa10a125ea872411076ee61d63",
+        "cookie": {
+            "maxAge": 604800000
+        },
+        "saveUninitialized": false,
+        "resave": true
+    },
+
+    "mail": {
+        "host": "smtp.gmail.com",
+        "port": 465,
+        "secure": true,
+        "auth": {
+            "type": "login",
+            "user": "ivanchenko.s@gmail.com",
+            "pass": "some pass"
+        }
+    }
+}

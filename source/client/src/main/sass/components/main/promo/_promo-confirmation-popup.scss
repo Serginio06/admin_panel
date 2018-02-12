@@ -1,0 +1,174 @@
+.form__content-wrapper {
+
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100%;
+  //padding: 0 30px;
+  color: #b6b6b6;
+
+}
+
+#PromoConfirmationPopup {
+  width: 100%;
+
+  .form__header__cancelBtn-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 5px;
+
+    .form__header__cancelBtn {
+      border: 0;
+      background-color: transparent;
+      width: auto;
+      height: auto;
+      min-width: 0;
+      min-height: 0;
+      color: #616161;
+      display: flex;
+      align-items: flex-end;
+      padding: 0;
+    }
+  }
+
+
+
+  .promo-confirmation-popup-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* align-items: center; */
+    /* align-content: center; */
+    width: 100%;
+    margin-bottom: 17px;
+
+    .promo-confirmation-popup-text-uppercase{
+      display: block;
+      /* SEND PROMO CAMPAIGN: */
+      font-family: $hermesNormal;
+      font-size: 15px;
+      color: #363636;
+      letter-spacing: 0.8px;
+      line-height: 20px;
+      text-transform: uppercase;
+      width: 100%;
+      text-align: center;
+    }
+
+    .promo-confirmation-popup-text-lowercase{
+      display: block;
+      font-family: $fontFamily8;
+      font-size: 15px;
+      color: #363636;
+      letter-spacing: 0.31px;
+      line-height: 20px;
+      width: 100%;
+      text-align: center;
+    }
+  }
+
+  .form__header__logo-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+    margin-bottom: 34px;
+
+    svg {
+      width: 100%;
+    }
+
+    .form__header__logo__siteName-wrapper{
+      width: 100%;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+  }
+
+  .form__header__logo__siteName__topRow {
+    width: 100%;
+    text-align: center;
+    font-family: Hermes;
+    font-size: 18.4px;
+    color: #000;
+    letter-spacing: 3.36px;
+    line-height: 12px;
+    padding-left: 4px;
+  }
+
+  .form__header__logo__siteName__bottomRow {
+    width: 100%;
+    text-align: center;
+    font-family: Hermes Regular,Helvetica;
+    font-weight: 100;
+    font-size: 11px;
+    color: #000;
+    letter-spacing: 2px;
+  }
+
+
+
+
+  .modal-dialog {
+    width: 480px
+  }
+
+  .form-wrapper {
+    min-width: auto;
+    max-width: auto;
+    margin: 16px;
+  }
+
+  .modal-header {
+    font-family: $fontFamily3;
+  }
+
+  .form__header__logo-img{
+    margin-bottom: -5px;
+  }
+
+  .form__content__inputBtn-wrapper{
+
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    flex-wrap: wrap;
+    margin-bottom: 15px;
+
+    .white__btn{
+      border: 1px solid black!important;
+    }
+
+    .form__content__actionBtn{
+      max-width: 0;
+      min-width: 380px;
+      transition: .25s;
+      padding: 0 7px;
+
+      height: 41px;
+      border: none;
+      margin-bottom: 9px;
+
+      font-family: $fontFamily8;
+      font-size: 15px;
+      letter-spacing: 0.31px;
+      text-transform: uppercase;
+    }
+
+    .promo-confirmation-popup-terms{
+      font-family: $fontFamily5;
+      font-size: 12px;
+      color: $textColor13;
+      letter-spacing: -0.4px;
+      text-align: center;
+      width: 300px;
+      margin: 0 auto 26px auto;
+      line-height: 1.2;
+    }
+
+  }
+}

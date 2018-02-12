@@ -1,0 +1,161 @@
+$textColor1: #B6B6B6;
+$textColor2: #616161;
+$textColor3: #F7F7F7;
+$textColor4: #4AADDE;
+$textColor5: #A5A5A5;
+$btnBkgColor1: #363636;
+$adminSubcategoryBkgColorActive: #1B1F26;
+$adminSubcategoryBkgColor: #232831;
+$adminCategoryBkgColor: #474F5F;
+$adminCategoryBkgColorActive: #232831;
+$adminTopBarBkg: #282D37;
+$iconColor: $textColor3;
+$iconColorActive: #5FE734;
+
+$fontFamily1: "Lucida Grande", sans-serif;
+
+.modal-dialog {
+  width: 100%;
+  margin: 30px auto;
+}
+
+// ================ MIXINIS ===============
+@mixin transitionHeight($time) {
+  -webkit-transition: height $time ease-in-out;
+  -moz-transition: height $time ease-in-out;
+  -o-transition: height $time ease-in-out;
+  transition: height $time ease-in-out;
+}
+
+// ================ TAGS STYLE ===============
+* {
+  font-family: $fontFamily1;
+  font-size: 16px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  //font-family: $fontFamily1;
+  //font-size: 16px;
+}
+
+h1 {
+  text-align: center;
+  /* Representative Regis: */
+  font-family: $fontFamily1;
+  font-size: 21px;
+  color: $textColor1;
+  letter-spacing: 0;
+}
+
+h2 {
+  text-align: center;
+  font-size: 18px;
+  color: $textColor1;
+  font-family: $fontFamily1;
+  letter-spacing: 0;
+  position: absolute;
+}
+
+h3 {
+
+}
+
+.App {
+  background-color: #FFF;
+  width: 100%;
+  height: 100vh;
+}
+
+button {
+  max-width: 250px;
+  height: 38px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 14px;
+  border: 1px solid #DFDFDF;
+  border-radius: 3px;
+  text-transform: uppercase;
+
+}
+
+// ========== BUTTONS ============
+
+.white__btn {
+  //width: 45%;
+  color: #000000;
+  font-weight: normal;
+  background: #FFFFFF;
+}
+
+.black__btn {
+  //width: 45%;
+  color: #FFF;
+  font-weight: bold;
+  background: #363636;
+}
+
+.grey__wide__btn {
+  //width: 45%;
+  color: #000;
+  font-weight: bold;
+  background: #F0F0F0;
+}
+
+.btn-w30 {
+  width: 30%;
+}
+
+.btn-w45 {
+  width: 45%;
+}
+
+.grey_btn {
+  color: $textColor2;
+  font-weight: bold;
+  font-size: 12px;
+  background: #F0F0F0;
+  //width: 180px;
+  //min-width: 100px;
+}
+
+.modal-content {
+  min-width: 320px;
+}
+
+//.logo-w62{
+//  background-color: $textColor1;
+//  min-width: 62px;
+//  min-height: 62px;
+//  align-self: flex-start;
+//}
+//
+//.logo-w115{
+//  //width: 115px;
+//  //width: 45%;
+//  //height: auto;
+//  padding-right: 5px;
+//  align-self: flex-end;
+//  height: 110px;
+//  width: 110px;
+//}
+
+@media only screen and (max-width: 768px) {
+
+  h2 {
+    position: relative;
+  }
+
+  .logo-w115 {
+    width: 40%;
+    max-height: none;
+    max-width: none;
+  }
+
+}
+
+
+
+
+

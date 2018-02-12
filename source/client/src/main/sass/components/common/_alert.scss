@@ -1,0 +1,52 @@
+//@import "../../main/index";
+
+[class^=alert-wrapper] {
+
+  display: flex;
+  width: 100%;
+  border-radius: 13px;
+  overflow: hidden;
+  height: auto;
+  margin-bottom: 5px;
+  .left-side {
+    width: 13px;
+  }
+
+  .container {
+    flex: 1;
+    padding: 20px;
+    font-size: 11px;
+  }
+
+}
+
+.alert-wrapper-error {
+
+  .left-side {
+    background-color: #b94a48;
+  }
+
+  .container {
+    color: #b94a48;
+    background-color: #f2dede;
+    //border-color: #eed3d7;
+    border-right: 1px solid #eed3d7;
+
+  }
+
+}
+
+.alert-wrapper-success {
+
+  .left-side {
+    background-color: #3a87ad;
+
+  }
+
+  .container {
+    color: #3a87ad;
+    background-color: #d9edf7;
+    border-right: 1px solid #bce8f1;
+  }
+
+}

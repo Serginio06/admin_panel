@@ -1,0 +1,21 @@
+
+#inputLogoPicUpload__logoBtn {
+  display: none;
+}
+
+.companyReg__picUploader__img-wrapper {
+  display: flex;
+  justify-content: center;
+  width: 62px;
+  flex-wrap: wrap;
+}
+
+.companyReg__picUploader__btn-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+@media only screen and (max-width: $media__max-width) {
+
+}

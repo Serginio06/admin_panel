@@ -1,0 +1,55 @@
+.tableBlock__header {
+  height: 40px;
+  width: 100%;
+  margin-bottom: 10px;
+  margin-top: 5px;
+  background-color: #f7f7f7;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+}
+
+.tableBlock__header__button {
+  display: flex;
+  width: 20%;
+  padding-left: 20px;
+  align-items: center;
+  justify-content: flex-start;
+  position: relative;
+  height: inherit;
+  cursor: pointer;
+
+  &::after {
+    transform: rotate(-15deg);
+    display: block;
+    content: "";
+    position: absolute;
+    right: 0;
+    width: 3px;
+    background-color: #ffffff;
+    height: inherit;
+    //padding-right: 5px;
+    margin-right: 5px;
+  }
+
+  &.buttonDisabled {
+    color: #ccc;
+  }
+}
+
+.tableBlock__header__inputBtn-wrapper {
+  display: flex;
+  justify-content: flex-end;
+  flex-wrap: nowrap;
+  width: 20%;
+  align-self: center;
+  align-items: center;
+
+}
+
+.tableBlock__header__button-wrapper {
+  display: flex;
+  justify-content: flex-start;
+  width: 100%;
+  height: inherit;
+}

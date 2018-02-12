@@ -1,0 +1,13 @@
+//@import "./components/company-panel";
+@import "components/window/recover-form";
+@import "components/window/signin-form";
+@import "components/window/signup-form";
+@import "input";
+//======== MAIN >>> common
+@import "../../main/sass/components/common/navigation/left-navbar-button";
+//@import "../../common/components/Navigation";
+//@import "../../main/sass/components/common/manager-box";
+
+.input__fc-wrapper {
+  width: 100%;
+}

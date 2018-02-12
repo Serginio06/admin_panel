@@ -1,0 +1,82 @@
+//@import "../../index";
+
+.productRegForm {
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: nowrap;
+  width: 100%;
+}
+
+.productRegForm__alert {
+  background-color: rosybrown;
+  color: darkred;
+  width: 100%;
+  height: 50px;
+}
+
+.productRegForm__formInputs-wrapper {
+  width: 100%;
+}
+
+.productRegForm__form-wrapper {
+  width: 100%;
+  margin-top: 19px;
+}
+
+.productReg__row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 24px;
+}
+
+.productReg__row:last-child {
+  margin-bottom: 0;
+}
+
+.productReg__checkbox-description {
+  font-family: $fontFamily6;
+  font-size: 11px;
+  color: $textColor1;
+  letter-spacing: 0;
+}
+
+[class^='productCol'] {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-self: flex-start;
+  height: 100%;
+  width: 31.8%;
+}
+
+#productReg__row-spacearound {
+  justify-content: space-around;
+}
+
+@media only screen and (max-width: $media__max-width) {
+
+  .productRegForm {
+    margin: 25px;
+  }
+
+  .productReg__row {
+    flex-wrap: wrap;
+    justify-content: center;
+    height: auto;
+
+  }
+
+  .productReg__productAttributes__wrapper {
+    width: 100%;
+    height: auto;
+  }
+
+  [class^='productCol'] {
+    width: 100%;
+    max-width: none;
+  }
+
+}
+

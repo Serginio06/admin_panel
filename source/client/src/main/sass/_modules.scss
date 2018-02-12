@@ -1,0 +1,61 @@
+@import "./../../signin/index"; // TODO: fix main/PasswordForm.jsx component which use it
+
+// ========== MAIN BLOCKS AND PAGES ============
+
+.mainPage {
+  height: 100%;
+  width: 100%;
+}
+
+.companyPage-wrapper {
+  width: 100%;
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.companyPage__panel_form-wrapper {
+  min-width: $leftSubpanelWidth;
+  max-width: $leftSubpanelWidth;
+}
+
+
+.companyPage__mainContent-wrapper {
+  //width: 100%;
+  width: $mainContentCalculatedWidth;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  overflow-y: auto;
+  overflow-x: hidden;
+  //flex-direction: column;
+}
+
+.passwordPage {
+  width: 65vw;
+}
+
+.form__header__wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  align-items: center;
+  margin-bottom: 11px;
+
+  > h1 {
+    text-transform: uppercase;
+    color: #282D37;
+    font-size: 23px;
+    margin: 0 auto 15px;
+    font-family: $fontFamily1;
+    letter-spacing: 0.65px;
+    line-height: 26px;
+  }
+}
+
+.language__switcher-wrapper {
+  position: absolute;
+  left: 0;
+  top: -15px;
+}
+

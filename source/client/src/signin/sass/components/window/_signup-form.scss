@@ -1,0 +1,64 @@
+//@import "../../index";
+
+.representativeRegForm_sides {
+  margin: 0 10px;
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: nowrap;
+  //width: 20%;
+
+}
+
+.representativeRegForm__form-wrapper {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100%;
+  color: $textColor1;
+
+  h1 {
+    padding-bottom: 110px;
+    width: 100%;
+  }
+
+}
+
+.representativeRegForm__formInputs-wrapper {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 100%;
+  max-width: 600px;
+}
+
+.inputBtn_wrapper {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 90px;
+
+}
+
+@media only screen and (max-width: 768px) {
+
+  .representativeRegForm {
+    //margin: 25px 25px;
+    flex-wrap: wrap;
+  }
+
+  .representativeRegForm_sides {
+    justify-content: center;
+    width: 100%;
+  }
+
+  .representativeRegForm__form-wrapper {
+    h1 {
+      padding-bottom: 50px;
+    }
+  }
+
+  .inputBtn_wrapper {
+    margin-top: 25px;
+  }
+
+}

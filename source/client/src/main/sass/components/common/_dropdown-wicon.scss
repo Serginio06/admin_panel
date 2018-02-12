@@ -1,0 +1,45 @@
+
+.DropdownWicon-toggle {
+  width: 30px;
+  padding: 0;
+  min-width: 0;
+  border: 0;
+}
+
+.DropdownWicon__items-wrapper>li>a {
+  font-family: $fontFamily6;
+  font-size: 12px;
+  color: #616161;
+}
+
+.dropdownWicon {
+  margin-right: 5px;
+  //min-width: 140px;
+  background-color: transparent;
+  .SVGInline {
+    //margin: 0 15px;
+  }
+}
+
+.dropdownWicon:last-child {
+  margin-right: 0;
+}
+
+.dropdownWicon__btn {
+  font-family: $fontFamily6;
+  font-size: 14px;
+  color: $textColor2;
+  display: flex;
+  min-width: 0;
+  padding: 0 10px 0 0;
+  border: 0;
+  width: auto;
+  align-items: center;
+  .caret {
+    margin-left: 15px;
+  }
+}
+
+@media only screen and (max-width: $media__max-width) {
+
+}

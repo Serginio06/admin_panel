@@ -1,0 +1,6 @@
+export enum PromoTargetAge {
+    PROMO_TARGET_AGE_13_18,
+    PROMO_TARGET_AGE_19_26,
+    PROMO_TARGET_AGE_27_34,
+    PROMO_TARGET_AGE_35_49,
+}

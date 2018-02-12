@@ -1,0 +1,7 @@
+// ================ MIXINS ===============
+@mixin transitionHeight($time) {
+  -webkit-transition: height $time ease-in-out;
+  -moz-transition: height $time ease-in-out;
+  -o-transition: height $time ease-in-out;
+  transition: height $time ease-in-out;
+}

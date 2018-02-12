@@ -1,0 +1,44 @@
+@import "fonts";
+
+.mainBlock__header__inputBtn-wrapper button.language_switcher__btn {
+  max-width: 70px;
+  margin-top: 5px;
+  margin-right: -4px;
+  padding: 6px 12px 4px 12px;
+  &>span {
+    font-size: 14.5px;
+    letter-spacing: 0.5px;
+    line-height: normal;
+  }
+}
+
+.language_switcher__btn {
+  cursor: pointer;
+  user-select: none;
+  max-width: 67px;
+  min-width: 67px;
+  display: flex;
+  justify-content: space-between;
+  font-family: $fontFamily1;
+  border-radius: 3px;
+  margin-left: 1px;
+  padding: 6px 8px;
+  & > span {
+    font-family: $fontFamily1;
+    font-size: 16px;
+    letter-spacing: 0.5px;
+    line-height: 19px;
+  }
+}
+
+[class^=language_switcher] {
+
+}
+
+.language_switcher__active_item {
+  color: $textColor2;
+}
+
+.language_switcher__inactive_item {
+  color: $textColor1;
+}

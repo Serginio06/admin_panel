@@ -1,0 +1,42 @@
+
+.textArea__wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  height: auto;
+  margin-bottom: 13px;
+  align-self: flex-start;
+}
+
+.textArea {
+  width: 100%;
+  color: $textColor10;
+  background: #FFFFFF;
+  border: 1px solid #DFDFDF;
+  border-radius: 3px;
+  padding: 10px $inputLeftPadding;
+  font-family: $fontFamily6;
+  font-size: 12px;
+  letter-spacing: -0.3px;
+  line-height: 17px;
+
+  @include placeholderColor();
+}
+
+.textArea {@include placeholderColor();}
+
+#companyReg__textAreaDescription {
+  //margin-bottom: 0;
+}
+
+//.textArea__workingHours{
+//    //height: 120px;
+//}
+
+.textArea__ages {
+
+}
+
+.textArea__description {
+  //height: 120px;
+}

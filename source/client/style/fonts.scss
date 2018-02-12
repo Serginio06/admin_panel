@@ -1,0 +1,68 @@
+// ================ FONTS and FONT SIZES ===============
+
+@font-face {
+  font-family: "LucidaGrand";
+  src: url(../resources/fonts/LucidaGrand.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: "Hermes Regular";
+  src: url(../resources/fonts/Hermes-Regular.otf) format('truetype');
+}
+
+@font-face {
+  font-family: "Hermes Thin";
+  src: url(../resources/fonts/Hermes-Regular-Thin.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: "Hermess";
+  src: url(../resources/fonts/Hermes.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: "HermesC";
+  src: url(../resources/fonts/HermesC.otf) format('truetype');
+}
+
+@font-face {
+  font-family: "SFProText";
+  src: url(../resources/fonts/SFProText.otf) format('opentype');
+}
+
+@font-face {
+  font-family: "SF-Pro-Text Regular";
+  src: url(../resources/fonts/SF-Pro-Text-Regular.otf) format('opentype');
+}
+
+@font-face {
+  font-family: "SF-Pro-Text Light";
+  src: url(../resources/fonts/SF-Pro-Text-Light.otf) format('opentype');
+}
+
+@font-face {
+  font-family: "SF-Pro-Text Semibold";
+  src: url(../resources/fonts/SF-Pro-Text-Semibold.otf) format('opentype');
+}
+
+@font-face {
+  font-family: "SF-Pro-Text Medium";
+  src: url(../resources/fonts/SF-Pro-Text-Medium.otf) format('opentype');
+}
+
+@font-face {
+  font-family: "SF-Pro-Text Bold";
+  src: url(../resources/fonts/SF-Pro-Text-Bold.otf) format('opentype');
+}
+
+$fontFamily1: "Hermess";
+$fontFamily2: "LucidaGrand", "Helvetica";
+$fontFamily3: "SF-Pro-Text Light", "Helvetica";
+$fontFamily4: "SF-Pro-Text Semibold", "Helvetica";
+$fontFamily5: "SF-Pro-Text Medium", "Helvetica";
+$fontFamily6: "SF-Pro-Text Regular", "Helvetica";
+$fontFamily7: "SF-Pro-Text Bold", "Helvetica";
+$fontFamily8: "HermesC", "Helvetica";
+
+$hermesNormal: "Hermes Regular", "Helvetica";
+$hermesThin: "Hermes Thin", "Helvetica";

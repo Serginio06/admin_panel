@@ -1,0 +1,271 @@
+@import "vendor";
+
+// ========== FORM INPUTS ============
+.inputLabel {
+  font-size: $inputLabelFontSize;
+  color: $textColor8;
+  letter-spacing: 0;
+  margin-right: 6px;
+  margin-bottom: 0;
+  text-transform: uppercase;
+  font-family: $hermesNormal;
+  font-weight: 100;
+}
+
+.social-links {
+  width: 100%;
+}
+
+.input__wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+  margin-bottom: 13px;
+  align-self: flex-start;
+  position: relative;
+  .input__fc-wrapper {
+    position: relative;
+    .form-control {
+      @include placeholderColor();
+    }
+    &.hasCaret {
+      &.leftCaret {
+        .form-control {
+          padding-left: 20px;
+        }
+        .Caret {
+          left: 10px;
+        }
+      }
+    }
+  }
+  .Caret {
+    font-family: $fontFamily3;
+    font-weight: normal;
+    font-size: 13px;
+    color: black;
+    position: absolute;
+    top: 6px;
+    left: 5px;
+  }
+
+  &.social-links-input {
+    .input__fc-wrapper {
+      position: relative;
+    }
+    button {
+      font-family: $fontFamily2;
+      font-weight: bold;
+      position: absolute;
+      right: 1px;
+      top: 3px;
+      max-width: 25px;
+      min-width: 25px;
+      height: 20px;
+      text-align: center;
+      text-decoration: none;
+      border: 0;
+      font-size: 17px;
+      color: $textColor8;
+      background-color: #ffffff;
+      &:active, &:focus {
+        background-color: transparent;
+      }
+    }
+  }
+}
+
+.input__wrapper:last-child {
+  margin-bottom: 0;
+}
+
+.input__wrapper-w100 {
+  width: 100%;
+  &.promoInputFix {
+    margin-bottom: 2px;
+  }
+}
+
+.input__wrapper-w100mb28 {
+  width: 100%;
+  margin-bottom: 28px !important;
+}
+
+.input__wrapper-w100mb28 {
+  width: 100%;
+  margin-bottom: 28px;
+}
+
+.input__wrapper-w45 {
+  width: 45%;
+}
+
+.input__wrapper-w65 {
+  width: 65%;
+  height: 100%;
+}
+
+.input__wrapper-w30 {
+  width: 30%;
+}
+
+.input__wrapper-w40 {
+  width: 40%;
+  min-width: 120px;
+}
+
+.formInput {
+  font-family: $fontFamily6;
+  width: 100%;
+  height: $inputHeight;
+  font-size: $inputFontSize;
+  color: $textColor10;
+  background: #FFFFFF;
+  border: 1px solid #DFDFDF;
+  border-radius: 3px;
+  //padding: 0;
+  padding: 0 $inputLeftPadding;
+  letter-spacing: 0;
+  @include placeholderColor();
+}
+
+.questionMark {
+  width: 9px;
+  height: 9px;
+  border-radius: 0.72px;
+  margin-bottom: 0;
+  font-size: 8px;
+  background-color: $questionMarkBkg;
+  color: #616161;
+  letter-spacing: -0.2px;
+  font-weight: bold;
+  text-align: center;
+  font-family: $fontFamily2;
+  line-height: 10px;
+  cursor: help;
+}
+
+.input_label_and_questionMark__wrapper {
+  display: flex;
+  flex-wrap: nowrap;
+  width: 100%;
+  margin-bottom: 4px;
+  align-items: flex-end;
+  align-content: flex-end;
+
+  .inputLabel {
+    line-height: 5px;
+    font-family: $hermesThin;
+    font-weight: 800;
+    font-size: 9px;
+    color: #8D8D8D;
+    letter-spacing: -0.18px;
+    margin-left: 2px;
+    height: 11px;
+  }
+
+  span {
+    font-size: 12px;
+    margin-left: 0;
+    font-family: $hermesThin;
+    font-weight: 800;
+    position: relative;
+    top: 0;
+    right: 1px;
+    line-height: normal;
+  }
+}
+
+.help-block {
+  width: 100%;
+  font-size: 12px;
+  font-family: $fontFamily6;
+  text-align: right;
+  margin-top: 2px;
+}
+
+.warning-text.help-block {
+  font-size: 11px;
+  margin-bottom: -21px;
+  &.photo-hint {
+    text-align: center;
+  }
+}
+
+.has-warning .form-control {
+  border-color: #ffcc00;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+}
+
+.has-warning .form-control:focus {
+  border-color: #ffcc00;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #FF9900;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #FF9900;
+}
+
+.subInput__info-wrapper {
+  display: flex;
+  justify-content: flex-end;
+  flex-wrap: nowrap;
+  width: 100%;
+  margin-bottom: -21px;
+}
+
+.span_maxLength {
+  color: #B6B6B6;
+  font-size: 12px;
+  text-align: right;
+  width: 50px;
+  margin-top: 5px;
+}
+
+.has-warning > .warning-text {
+  color: #ffcc00;
+  width: 100%;
+  text-align: left;
+  padding-right: 7px;
+  margin-top: 5px;
+}
+
+.tooltip {
+  .tooltip-inner {
+    background-color: #F0F0F0;
+    border: 1px solid $borderColor2;
+  }
+  strong {
+    color: $textColor2;
+    font-family: $fontFamily6;
+  }
+  &.top .tooltip-arrow {
+    border-top-color: $borderColor2;
+    background: transparent;
+  }
+}
+
+.input__wrapper {
+  position: relative;
+  .input-right-action {
+    position: absolute;
+    background: transparent;
+    min-width: 34px;
+    right: 0;
+    top: 20px;
+    border: none;
+    color: #000;
+    &:focus {
+      outline: none;
+      background-color: #eee;
+    }
+  }
+}
+
+@media only screen and (max-width: $media__max-width) {
+
+  .input__wrapper {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+}

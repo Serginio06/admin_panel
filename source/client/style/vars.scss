@@ -1,0 +1,59 @@
+
+$textColor1: #B6B6B6;
+$textColor2: #616161;
+$textColor3: #F7F7F7;
+$textColor4: #4AADDE;
+$textColor5: #A5A5A5;
+$textColor6: #303743;
+$textColor7: #79DB5B;
+$textColor8: #B6B6B6;
+$textColor9: #FE947C;
+$textColor10: #1D1F28;
+$textColor11: #758093;
+$textColor12: #ECF6FB;
+$textColor13: #959595;
+$textColor14: #C6C6C6;
+
+$btnBkgColor1: #363636;
+$borderColor1: #DFDFDF;
+$borderColor2: #C6C6C6;
+
+$questionMarkBkg: #DFDFDF;
+
+$adminSubcategoryBkgColorActive: #1B1F26;
+$adminSubcategoryBkgColor: #232831;
+$adminCategoryBkgColor: #303743;
+$adminCategoryBkgColorActive: #232831;
+$adminTopBarBkg: #282D37;
+$iconColor: $textColor3;
+$iconColorActive: #5FE734;
+
+$btnBkgColor2: #F0F0F0;
+$btnBkgColor3: #21538D;
+
+$bkgColor3: #F1F1F1;
+//$bkgColor4: #303743;
+
+$media__max-width: 960px;
+
+$inputFontSize: 12px;
+$dropdownFontSize: $inputFontSize;
+$textAreaFontSize: $inputFontSize;
+
+$inputLabelFontSize: 8px;
+$dropdownLabelFontSize: $inputLabelFontSize;
+$textareaLabelFontSize: $inputLabelFontSize;
+
+$LabelTitleFontSize: 7px;
+$LabelTextFontSize: 13px;
+
+$tableHeadertabsFontSize: 16px;
+
+$inputHeight: 30px;
+$inputLeftPadding: 10px;
+
+//$leftPannelWidth:60px;
+$leftSubpanelWidth: 200px;
+//$leftSubpanelWidth: 14vw;
+
+$mainContentCalculatedWidth: calc(100vw - #{$leftSubpanelWidth} - 60px);

@@ -1,0 +1,7 @@
+{
+    "dev": {
+        "dev": <database uri>,
+        "database": <database name>,
+        "driver": "mongodb"
+    }
+}

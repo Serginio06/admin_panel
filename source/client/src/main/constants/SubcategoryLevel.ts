@@ -1,0 +1,5 @@
+export enum SubcategoryLevel {
+    SUBCATEGORY_LEVEL_FIRST,
+    SUBCATEGORY_LEVEL_SECOND,
+    SUBCATEGORY_LEVEL_THIRD,
+}

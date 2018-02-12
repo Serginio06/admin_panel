@@ -1,0 +1,32 @@
+// ================ FONTS and FONT SIZES ===============
+
+//@font-face {
+//  font-family: LucidaGrand;
+//  src: url("./../../resources/fonts/LucidaGrand.ttf");
+//}
+
+@font-face {
+  font-family: "LucidaGrand";
+  src: url("/build/media/LucidaGrand.ttf"); // @todo improve or kill me please
+}
+
+@font-face {
+  font-family: "Hermes Regular";
+  src: url("/build/media/HermesRegular.ttf"); // @todo improve or kill me please
+}
+
+//@font-face {
+//  font-family: "Hermes";
+//  src: url("/build/media/Hermes.ttf"); // @todo improve or kill me please
+//}
+
+@font-face {
+  font-family: "SFProText";
+  src: url("/build/media/SFProText.otf"); // @todo improve or kill me please
+}
+
+//$fontFamily1: "Lucida Grande", sans-serif;
+$fontFamily1: "LucidaGrand";
+$fontFamily2: "Hermes";
+$fontFamily3: "SFProText";
+$hermesNormal: "Hermes Regular", "Helvetica";

@@ -1,0 +1,57 @@
+//@import "../../index";
+//@import "../../../common/components/navigation";
+
+.panel {
+  margin-bottom: 0;
+  background-color: transparent;
+  border: 0;
+  border-radius: 0;
+  -webkit-box-shadow: 0 0px 0px rgba(0, 0, 0, .05);
+  box-shadow: 0 0 0 rgba(0, 0, 0, .05);
+}
+
+.panel-default > .panel-heading {
+  color: $textColor3;
+  background-color: transparent;
+  border: 0;
+  padding: 7px 17px;
+}
+
+.panel-heading {
+  padding: 0;
+  border-bottom: 0;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.panel-default {
+  border-color: transparent;
+}
+
+.panel-body {
+  padding-left: 10px;
+}
+
+.productPanel__Subcategory__text-item-wrapper {
+  width: 100%;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  cursor: pointer;
+  img {
+    width: inherit;
+  }
+}
+
+.productPanel__Subcategory__text-item-wrapper:hover {
+  //background-color: transparent;
+  background-color: $adminSubcategoryBkgColorActive;
+
+  .panel-title {
+
+    a {
+      color: $textColor4;
+    }
+  }
+
+}
